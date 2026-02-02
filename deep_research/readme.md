@@ -29,16 +29,23 @@ The system is controlled by a **Research Manager** that coordinates the followin
 
 ## Installation
 
-1.  **Clone the repository** (or download the files):
+1.  **Navigate to the project directory**:
+    If you have cloned the entire `SomeAgents` repository, please enter the `deep_research` directory:
     ```bash
-    git clone <your-repo-url>
-    cd deep-research-agent
+    cd deep_research
     ```
 
-2.  **Install dependencies**:
-    *(Note: This assumes you have the custom `agents` library available, as referenced in the imports)*
+2.  **Create and activate virtual environment**:
     ```bash
-    pip install openai pydantic gradio python-dotenv sendgrid-python
+    uv venv
+    source .venv/bin/activate  # macOS/Linux
+    # .venv\Scripts\activate  # Windows
+    ```
+
+3.  **Install dependencies**:
+    Install all dependencies from `requirements.txt` using `uv`:
+    ```bash
+    uv pip install -r requirements.txt
     ```
 
 3.  **Set up Environment Variables**:
@@ -77,6 +84,3 @@ Once running, a local URL will appear in your terminal (e.g., http://127.0.0.1:7
 - `search_agent.py`: Agent responsible for executing web searches and summarizing results.
 - `writer_agent.py`: Agent responsible for synthesizing information into a final report.
 - `email_agent.py`: Agent responsible for formatting and sending the email.
-
-
-
