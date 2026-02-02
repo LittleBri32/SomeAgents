@@ -1,12 +1,26 @@
-# SomeAgents - AI Agent 專案集合
+# SomeAgents - AI Agent Project Collection
 
-這個 Repository 包含一系列我所建立的 AI Agent 專案。每個專案都位於各自的子目錄中，並且是獨立的。
+This repository contains a collection of AI Agent projects I've created. Each project is located in its own subdirectory and is independent.
 
-## 專案列表
+## Global Dependency Management
+
+This project collection uses [uv](https://astral.sh/uv) as its package installation and virtual environment management tool. `uv` provides a fast and reliable dependency resolution.
+
+### Install uv
+
+If you haven't installed `uv` yet, you can install it using `pip` or `brew` (macOS):
+
+```bash
+pip install uv
+# Or for macOS:
+# brew install uv
+```
+
+## Project List
 
 *   ### [Deep Research Agent](./deep_research/)
-*   一個能夠進行深度主題研究的代理人。它會規劃、執行並彙總研究結果。
-*   **Tech Stack**: Python, OpenAI API, Langchain
+    An agent capable of performing in-depth thematic research. It plans, executes, and summarizes research findings.
 
-## 如何使用
-請進入您感興趣的專案子目錄，並參考其對應的 `README.md` 檔案以獲得詳細的安裝和使用說明。
+## How to Use
+
+Please navigate to the subdirectory of the project you are interested in and refer to its corresponding `README.md` file for detailed installation and usage instructions. Each sub-project will guide you on how to use `uv` to install its specific dependencies.
