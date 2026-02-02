@@ -84,3 +84,4 @@ Once running, a local URL will appear in your terminal (e.g., http://127.0.0.1:7
 - `search_agent.py`: Agent responsible for executing web searches and summarizing results.
 - `writer_agent.py`: Agent responsible for synthesizing information into a final report.
 - `email_agent.py`: Agent responsible for formatting and sending the email.
+g
