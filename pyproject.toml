@@ -1,7 +1,8 @@
 [project]
 name = "agents"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is some AI agents practice project."
+authors = [{ name = "Brian Yin", email = "land7411bu@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
