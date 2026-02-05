@@ -21,6 +21,7 @@ brew install uv
 
 *   ### [Deep Research Agent](./deep_research/)
 *   ### [Engineer Team Agent](./engineer_team/)
+*   ### [Stock Picker Agent](./stock_picker/)
 
 ## How to Use
 
