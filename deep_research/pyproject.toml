@@ -1,0 +1,18 @@
+[project]
+name = "deep_research"
+version = "0.1.0"
+description = "A deep research agent module."
+requires-python = ">=3.11,<4.0"
+dependencies = [
+  "openai-agents>=0.0.15",
+  "gradio",
+  "python-dotenv",
+  "crewai",
+  "crewai-tools",
+  "langchain-community", # Provides tools for agents
+  "sendgrid",
+  "pydantic",
+]
+
+[tool.uv]
+# 此處為 uv 工具的特定設定，依賴列表不應放在這裡
