@@ -12,14 +12,15 @@ If you haven't installed `uv` yet, you can install it using `pip` or `brew` (mac
 
 ```bash
 pip install uv
+
 # Or for macOS:
-# brew install uv
+brew install uv
 ```
 
 ## Project List
 
 *   ### [Deep Research Agent](./deep_research/)
-    An agent capable of performing in-depth thematic research. It plans, executes, and summarizes research findings.
+*   ### [Engineer Team Agent](./engineer_team/)
 
 ## How to Use
 
